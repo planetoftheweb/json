@@ -21,8 +21,8 @@ for (var key in	info.links) {
 		output.push('<a href="' + info.links[key]); 
 		output.push('">' + key + '</a>');
 		output.push('</li>');
-	}
-}
+  } // make sure property exists
+} // go through each object
 
 update = document.querySelector('.links ul');
 update.innerHTML = output.join('');
