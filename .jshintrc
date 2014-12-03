@@ -33,7 +33,8 @@
     "maxlen"        : false,    // {int} Max number of characters per line
 
     // Relaxing
-    "browser"        : true,      //true: Assume this is going to a browser
+    "browser"       : true,      //true: Assume this is going to a browser
+    "devel"         : true,      //true: Allow poor man console.log debugging, make sure you remove for production
     "asi"           : false,     // true: Tolerate Automatic Semicolon Insertion (no semicolons)
     "boss"          : false,     // true: Tolerate assignments where comparisons would be expected
     "debug"         : false,     // true: Allow debugger statements e.g. browser breakpoints.
