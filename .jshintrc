@@ -17,7 +17,7 @@
     "noempty"       : true,     // true: Prohibit use of empty blocks
     "nonbsp"        : true,     // true: Prohibit "non-breaking whitespace" characters.
     "nonew"         : false,    // true: Prohibit use of constructors for side-effects (without assignment)
-    "plusplus"      : false,    // true: Prohibit use of `++` & `--`
+    "plusplus"      : true,    // true: Prohibit use of `++` & `--`
     "quotmark"      : false,    // Quotation mark consistency:
                                 //   false    : do nothing (default)
                                 //   true     : ensure whatever is used is consistent
@@ -63,5 +63,9 @@
     "validthis"     : false,     // true: Tolerate using this in a non-constructor function
 
     // Custom Globals
-    "globals"       : {}        // additional predefined global variables
+    "globals"       : {
+        "$":false,
+        "jquery":false,
+        "angular":false
+    }        // additional predefined global variables
 }

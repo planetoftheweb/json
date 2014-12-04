@@ -1,20 +1,21 @@
-function dataHandler(info) {
+$(document).ready(function() {
+  "use strict";
 
-	"use strict";
-	var output = [], update;
-	
-	for (var i = 0; i <= info.links.length-1; i++) {
-		for (var key in info.links[i]) {
-			if (info.links[i].hasOwnProperty(key)) {
-				output.push('<li id="' + key + '">'); 
-				output.push('<a href="' + info.links[i][key]); 
-				output.push('">' + key + '</a>');
-				output.push('</li>');
-	    } // make sure property exists
-		} // go through each object
-	} // go through each array element
+  $.getJSON('js/data.json', function(info) {
 
+    var output = [];
 
-	update = document.querySelector('.links ul');
-	update.innerHTML = output.join('');
-} //dataHandler
+    $.each(info.links, function(i, arrValue) {
+      $.each(arrValue, function(key, objValue) {
+        output.push('<li id="' + key + '">');
+        output.push('<a href="' + objValue);
+        output.push('">' + key + '</a>');
+        output.push('</li>');
+      });
+    });
+
+    $('.links ul').html(output.join(''));
+
+  }); //getJSON
+
+}); // ready
