@@ -1,21 +1,18 @@
-$(document).ready(function() {
+$(function() {
+
   "use strict";
 
-  $.getJSON('js/data.json', function(info) {
+  $.getJSON('js/data.json', function(data) {
+    var template = $('#speakerstpl').html();
+    var html = Mustache.to_html(template, data);
+    $('.carousel').html(html);
 
-    var output = [];
-
-    $.each(info.links, function(i, arrValue) {
-      $.each(arrValue, function(key, objValue) {
-        output.push('<li id="' + key + '">');
-        output.push('<a href="' + objValue);
-        output.push('">' + key + '</a>');
-        output.push('</li>');
-      });
+    $('.carousel').slick({
+      autoplay: true,
+      arrows: true,
+      dots: true
     });
-
-    $('.links ul').html(output.join(''));
 
   }); //getJSON
 
-}); // ready
+}); //function

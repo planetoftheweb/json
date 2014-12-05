@@ -64,7 +64,7 @@
 
     // Custom Globals
     "globals"       : {
-        "$":false,
+        "$": false,
         "jquery":false,
         "angular":false
     }        // additional predefined global variables
