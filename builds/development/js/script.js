@@ -7,6 +7,12 @@ $(function() {
     var html = Mustache.to_html(template, data);
     $('.carousel').html(html);
 
+    $('.carousel').slick({
+      autoplay: true,
+      arrows: true,
+      dots: true
+    });
+
   }); //getJSON
 
 }); //function
