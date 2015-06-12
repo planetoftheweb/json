@@ -1,5 +1,5 @@
 # JavaScript & JSON
-Repository for am update to my Course on JavaScript & JSON.
+Repository for an update to my Course on JavaScript & JSON.
 
 ## Instructions
 1. Make sure you have [node.js](http://nodejs.org/) and [git](http://git-scm.com/) installed on your machine.

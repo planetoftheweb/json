@@ -66,6 +66,8 @@
     "globals"       : {
         "$": false,
         "jquery":false,
+        "require":false,
+        "Mustache":false,
         "angular":false
     }        // additional predefined global variables
 }
