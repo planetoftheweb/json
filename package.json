@@ -1,7 +1,7 @@
 {
   "name": "JavaScriptJSON",
   "version": "0.0.1",
-  "description": "Assets for my JavaScript and JSON course at Lynda.com",
+  "description": "JavaScript and JSON Sample",
   "repository": {
     "type": "git",
     "url": "https://github.com/planetoftheweb/json.git"
@@ -11,7 +11,6 @@
     "gulp": "^3.8.8",
     "gulp-jshint": "^1.9.0",
     "gulp-util": "^2.2.20",
-    "gulp-w3cjs": "^0.2.1",
     "gulp-webserver": "^0.8.1",
     "jshint-stylish": "^1.0.0"
   }
