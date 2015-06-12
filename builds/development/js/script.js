@@ -6,7 +6,6 @@
     if ((request.status === 200) &&
       (request.readyState === 4)) {
         var data = JSON.parse(request.responseText);
-        console.log(data);
         var template = document.querySelector('#speakerstpl').innerHTML;
         var html = Mustache.to_html(template, data);
         document.querySelector('#speakers').innerHTML=html;
