@@ -18,19 +18,19 @@ body {
   margin: 0 auto;
   margin-top: 30px;
 }
-.carousel h3,
-.carousel h4 {
+#speakers h3,
+#speakers h4 {
   color: #973C26;
   font: 700 2em/.9em'Open Sans';
   margin: 0;
   padding: 0;
   padding-bottom: .25em;
 }
-.carousel h4 {
+#speakers h4 {
   font-size: 1.2em;
   color: #E0E6AE;
 }
-.carousel img {
+#speakers img {
   width: 50%;
   max-width: 200px;
   margin-left: 20px;
@@ -38,7 +38,7 @@ body {
   margin-bottom: 20px;
   float: right;
 }
-.carousel p {
+#speakers p {
   color: #323232;
   font-size: 1.1em;
   line-height: 1.5em;
@@ -51,7 +51,7 @@ body {
   #speakers {
     width: 80%;
   }
-  .carousel img {
+  #speakers img {
     width: 180px;
     float: none;
   }
