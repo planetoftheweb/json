@@ -1,7 +1,7 @@
 # JavaScript and JSON: Integration Techniques
 This is the repository for my course JavaScript and JSON: Integration Techniques. The full course is available on [LinkedIn Learning](https://www.linkedin.com/learning/javascript-and-json-integration-techniques?trk=insiders_6787408_learning) and [Lynda.com](https://www.lynda.com/JavaScript-tutorials/JavaScript-JSON/114901-2.html)
 
-[![JavaScript and JSON: Integration Techniques](https://media-exp2.licdn.com/media-proxy/ext?w=1200&h=675&f=n&hash=6HrddnpdvB34YxBri%2Bkvehljlpk%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-iXS2j-NSfY3HhcMXeZLSioVoWfikDmAw2fumqRDLmFo69LcLmY4Yx3A)](https://www.linkedin.com/learning/javascript-and-json-integration-techniques?trk=insiders_6787408_learning)
+[![JavaScript and JSON: Integration Techniques](https://media-exp2.licdn.com/media-proxy/ext?w=1200&h=675&f=n&hash=tE2IZ9yWlGfsusNoIrRagcijpRk%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-gWiGj-tSfYXbtcMfeZLSiol8eeiUIlAAyfOitRzXiGo69LcLmY4Yx3A)](https://www.linkedin.com/learning/javascript-and-json-integration-techniques?trk=insiders_6787408_learning)
 
 JavaScript Object Notation (JSON) has replaced XML as the core way of sharing data, especially when it comes to JavaScript, since it's so much faster, sleeker, and easier to parse. In this course, dive into working with JSON tools, designing JSON objects, and using different ways to handling JSON data. Author Ray Villalobos also shows how to use AJAX and jQuery to parse your data and feeds, and shows JavaScript and JSON in action in a real-world practical application.
 
